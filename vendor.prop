@@ -168,6 +168,13 @@ persist.vendor.radio.sib16_support=1
 ro.telephony.default_network=22,22
 ro.vendor.use_data_netmgrd=true
 
+# Dirac
+ro.audio.soundfx.dirac=true
+persist.audio.dirac.speaker=true
+persist.dirac.acs.controller=qem
+persist.dirac.acs.ignore_error=1
+persist.dirac.acs.storeSettings=1
+
 # Sensor
 ro.vendor.sdk.sensors.gestures=false
 ro.vendor.sensors.cmc=false
