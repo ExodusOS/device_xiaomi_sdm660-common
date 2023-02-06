@@ -7,7 +7,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pe \
+    $(LOCAL_PATH)/overlay-lineage \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -172,10 +172,6 @@ PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl \
     android.frameworks.displayservice@1.0 \
     vendor.display.config@1.1
-
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
