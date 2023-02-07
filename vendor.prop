@@ -197,5 +197,8 @@ ro.soc.model=SDM660
 # Time
 persist.vendor.delta_time.enable=true
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Enable avoidGfxAccel
 ro.config.avoid_gfx_accel=true
