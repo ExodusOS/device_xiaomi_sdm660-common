@@ -196,3 +196,6 @@ ro.soc.model=SDM660
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# Enable avoidGfxAccel
+ro.config.avoid_gfx_accel=true
