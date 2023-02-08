@@ -14,6 +14,13 @@ persist.sys.fflag.override.settings_provider_model=false
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
+# Dirac
+ro.audio.soundfx.dirac=true
+persist.audio.dirac.speaker=true
+persist.dirac.acs.controller=qem
+persist.dirac.acs.ignore_error=1
+persist.dirac.acs.storeSettings=1
+
 #Whitelisting the below packages
 persist.vendor.camera.privapp.list=com.google.android.apps.cameralite
 persist.camera.privapp.list=com.google.android.apps.cameralite
