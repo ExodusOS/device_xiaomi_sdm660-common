@@ -117,10 +117,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.device@3.5:64 \
@@ -416,6 +412,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceDoze
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+    
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
