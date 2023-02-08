@@ -8,3 +8,4 @@ vendor.xiaomi.hardware.mlipay::IMlipayService                           u:object
 
 # Dolby
 vendor.dolby.hardware.dms::IDms                                            u:object_r:hal_dms_hwservice:s0
+motorola.hardware.health::IMotHealth                                       u:object_r:hal_health_hwservice:s0
